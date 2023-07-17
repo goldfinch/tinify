@@ -1,0 +1,11 @@
+---
+Name: tinify
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Goldfinch\Tinify\Extensions\SiteConfigExtension
+
+SilverStripe\Assets\Image:
+  extensions:
+    - Goldfinch\Tinify\Extensions\TinifyImageExtension
