@@ -1,5 +1,7 @@
 ---
 Name: goldfinch-tinify
+After:
+  - '#goldfinch-basement'
 ---
 
 SilverStripe\SiteConfig\SiteConfig:
